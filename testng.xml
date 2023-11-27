@@ -46,6 +46,13 @@
                     <include name="invalidExpressionTest"/>
                 </methods>
             </class>
+            <class name="Easy.KthLargestTest">
+                <methods>
+                    <include name="kthLargestTest1"/>
+                    <include name="kthLargestTest2"/>
+                    <include name="kthLargestTest3"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
