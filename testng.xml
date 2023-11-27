@@ -39,6 +39,12 @@
                     <include name="longestCommonPrefixTest2"/>
                 </methods>
             </class>
+            <class name="Easy.ValidExpressionTest">
+                <methods>
+                    <include name="validExpressionTest"/>
+                    <include name="invalidExpressionTest"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
