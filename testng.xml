@@ -20,6 +20,7 @@
             <class name="Easy.PalindromeTest">
                 <methods>
                     <include name="palindromeTrue"/>
+                    <include name="palindromeTrue1"/>
                     <include name="palindromeFail"/>
                     <include name="palindromeNumberFalse"/>
                     <include name="palindromeNumberTrue"/>
@@ -44,6 +45,19 @@
                 <methods>
                     <include name="validExpressionTest"/>
                     <include name="invalidExpressionTest"/>
+                </methods>
+            </class>
+            <class name="Easy.RotateArrayTest">
+                <methods>
+                    <include name="rotateArrayTest1"/>
+                    <include name="rotateArrayTest2"/>
+                </methods>
+            </class>
+            <class name="Easy.MergeSortedListTest">
+                <methods>
+                    <include name="mergeSortedListTest1"/>
+                    <include name="mergeSortedListTest2"/>
+                    <include name="mergeSortedListTest3"/>
                 </methods>
             </class>
         </classes>

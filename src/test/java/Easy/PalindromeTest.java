@@ -15,6 +15,13 @@ public class PalindromeTest {
     }
 
     @Test
+    void palindromeTrue1() {
+        String str = "MalayalaM";
+        boolean result = m.isPalindromeStringVariable(str);
+        Assert.assertTrue(result);
+    }
+
+    @Test
     void palindromeFail() {
         String str = "Lowes";
         boolean result = m.isPalindromeString(str);
