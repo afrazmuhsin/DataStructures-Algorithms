@@ -53,6 +53,12 @@
                     <include name="kthLargestTest3"/>
                 </methods>
             </class>
+            <class name="Easy.RemoveElementTest">
+                <methods>
+                    <include name="testRemoveElementTest1"/>
+                    <include name="testRemoveElementTest2"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
