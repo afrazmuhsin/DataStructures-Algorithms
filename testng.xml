@@ -58,6 +58,11 @@
                     <include name="mergeSortedListTest1"/>
                     <include name="mergeSortedListTest2"/>
                     <include name="mergeSortedListTest3"/>
+            <class name="Easy.KthLargestTest">
+                <methods>
+                    <include name="kthLargestTest1"/>
+                    <include name="kthLargestTest2"/>
+                    <include name="kthLargestTest3"/>
                 </methods>
             </class>
         </classes>
