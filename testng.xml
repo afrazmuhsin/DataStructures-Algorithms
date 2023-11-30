@@ -59,6 +59,12 @@
                     <include name="testRemoveElementTest2"/>
                 </methods>
             </class>
+            <class name="Easy.RotateArrayTest">
+                <methods>
+                    <include name="rotateArrayTest1"/>
+                    <include name="rotateArrayTest2"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
