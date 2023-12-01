@@ -24,13 +24,18 @@ public class LongestCommonPrefix {
 
     public String longestCommonPrefix(String[] s) {
         String longestPrefix = "";
+        String temp="";
         for(int i=1;i<s.length;i++){
-            longestPrefix = commonprefix(s[i],s[i-1]);
+            temp = commonPrefix(s[i],s[i-1]);
+            if(longestPrefix.isEmpty() && temp.isEmpty()) return "";
+            else if((longestPrefix.length()> temp.length()) || (longestPrefix.isEmpty())){
+                longestPrefix = temp;
+            }
         }
         return longestPrefix;
     }
 
-    public String commonprefix(String str1 , String str2){
+    public String commonPrefix(String str1 , String str2){
         StringBuilder commonPrefix = new StringBuilder("");
         String shortString = (str1.length()<str2.length())? str1: str2;
         String longString = (str1.length()>str2.length())? str1: str2;

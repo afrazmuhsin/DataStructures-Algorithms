@@ -65,6 +65,17 @@
                     <include name="rotateArrayTest2"/>
                 </methods>
             </class>
+            <class name="Easy.PasswordValidatorTest">
+                <methods>
+                    <include name="testPwdValidatorTest1"/>
+                    <include name="testPwdValidatorTest2"/>
+                    <include name="testPwdValidatorTest3"/>
+                    <include name="testPwdValidatorTest4"/>
+                    <include name="testPwdValidatorTest5"/>
+                    <include name="testPwdValidatorTest6"/>
+                    <include name="testPwdValidatorTest7"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
