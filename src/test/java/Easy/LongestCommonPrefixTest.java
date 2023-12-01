@@ -12,7 +12,7 @@ public class LongestCommonPrefixTest {
     LongestCommonPrefix m = new LongestCommonPrefix();
     @Test
     void longestCommonPrefixTest1() {
-        String[] str = {"Flower","Flow","Flight"};
+        String[] str = {"Flight","Flow","Flower"};
         String result = m.longestCommonPrefix(str);
         Assert.assertEquals(result,"Fl");
     }
@@ -21,5 +21,11 @@ public class LongestCommonPrefixTest {
         String[] str = {"dog","racecar","car"};
         String result = m.longestCommonPrefix(str);
         Assert.assertEquals(result,"");
+    }
+    @Test
+    void longestCommonPrefixTest3() {
+        String[] str = {"Flower","Flow","Flight"};
+        String result = m.longestCommonPrefix(str);
+        Assert.assertEquals(result,"Fl");
     }
 }
