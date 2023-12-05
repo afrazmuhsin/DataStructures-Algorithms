@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/MuhsinKamal/IdeaProjects/DataStructures-Algorithms">
+    <test verbose="2" preserve-order="true" name="/Users/MuhsinKamal/IdeaProjects/DataStructures-Algorithm">
         <classes>
             <class name="Easy.IsAnagramTest">
                 <methods>
@@ -43,6 +43,25 @@
                 <methods>
                     <include name="validExpressionTest"/>
                     <include name="invalidExpressionTest"/>
+                </methods>
+            </class>
+            <class name="Easy.SquareRootTest">
+                <methods>
+                    <include name="testSqrt1"/>
+                    <include name="testSqrt2"/>
+                    <include name="testSqrt3"/>
+                </methods>
+            </class>
+            <class name="Easy.SudokoTest">
+                <methods>
+                    <include name="sudoTest"/>
+                    <include name="sudoTest1"/>
+                    <include name="sudoTest2"/>
+                </methods>
+            </class>
+            <class name="Easy.MatrixDiagonaltest">
+                <methods>
+                    <include name="testDiagonal"/>
                 </methods>
             </class>
         </classes>
