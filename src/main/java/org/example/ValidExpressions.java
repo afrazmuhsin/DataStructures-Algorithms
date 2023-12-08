@@ -45,7 +45,7 @@ public class ValidExpressions {
                     stack.push(']');
                     break;
                 }
-                default:{
+                default: {
                     if(stack.isEmpty() || stack.pop()!= c)
                         return false;
                 }

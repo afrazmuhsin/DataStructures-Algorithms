@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 
 public class ValidExpressionTest {
 
-    //Tests
     ValidExpressions v = new ValidExpressions();
     @Test
     public void validExpressionTest(){
