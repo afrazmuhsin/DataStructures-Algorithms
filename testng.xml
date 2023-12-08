@@ -64,6 +64,22 @@
                     <include name="testDiagonal"/>
                 </methods>
             </class>
+            <class name="Easy.FibinocciTest">
+                <methods>
+                    <include name="fibTest1"/>
+                </methods>
+            </class>
+            <class name="Easy.StaircaseTest">
+                <methods>
+                    <include name="stairTest"/>
+                </methods>
+            </class>
+            <class name="Easy.ZerosTotLastTest">
+                <methods>
+                    <include name="testZeroLast"/>
+                    <include name="testZeroLast1"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
