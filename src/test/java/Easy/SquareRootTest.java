@@ -18,6 +18,11 @@ public class SquareRootTest {
         Assert.assertEquals(10,result);
     }
     @Test
+    void testSqrt4(){
+        int result = sqrt.squareRoot(49);
+        Assert.assertEquals(7,result);
+    }
+    @Test
     void testSqrt2(){
         int result = sqrt.squareRoot(23);
         Assert.assertEquals(4,result);
