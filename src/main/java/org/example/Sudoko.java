@@ -9,7 +9,7 @@ public class Sudoko {
         HashSet<Integer> sudokoRow = new HashSet<>();
         HashSet<Integer> sudokoColumn = new HashSet<>();
 
-        //Checking Row
+        //Checking Row.
         for (int i = 0; i < grid1.length; i++) {
             for (int j = 0; j < grid1[i].length; j++) {
                 if ((!sudokoRow.add(grid1[i][j])) || !(grid1[i][j] > 0 && grid1[i][j] <= 9)) {
