@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * This method is to validate password .
+ */
 public class PasswordValidator {
     public boolean isPasswordValid(String str){
         boolean isCapital = false , isSmall = false , isDigit = false , isSpecialChar = false;
