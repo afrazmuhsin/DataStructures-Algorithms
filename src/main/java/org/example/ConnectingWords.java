@@ -7,7 +7,7 @@ import java.util.List;
 public class ConnectingWords {
 
 //    Input: String[] words, int maxLength.
-//    Output: List lines.
+//    Output: List lines..
 //    e.g. ["1p3acres", "is", "a", "good", "place", "to", "communicate"], 12 =>
 //                                {"1p3acres-is", "a-good-place", "for", "communicate"}
 
