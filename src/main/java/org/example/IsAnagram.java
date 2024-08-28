@@ -17,7 +17,7 @@ public class IsAnagram {
 //    Example 2:
 //
 //    Input: s = "rat", t = "car"
-//    Output: false
+//    Output: false.
 
     public boolean isAnagramTest(String str1 , String str2){
         if(str1.length()!= str2.length()){
