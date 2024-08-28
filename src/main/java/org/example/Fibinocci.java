@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * This method is used to find fib series
+ */
 public class Fibinocci {
     public int fib(int n){
         int curr =1;int prev=0;int sum = 0;
