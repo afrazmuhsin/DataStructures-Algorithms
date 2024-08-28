@@ -10,7 +10,7 @@ public class Fibinocci {
         }
         return sum;
     }
-//    public int staircase(int n){
+//    public int staircase(int n){ //test
 //        int dp[] = new int[n + 1];
 //        dp[0] = 1;
 //        dp[1] = 1;
