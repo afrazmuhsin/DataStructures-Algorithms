@@ -2,7 +2,7 @@ package org.example;
 
 public class IsPalindrome {
     //Given an integer x, return true if x is palindrome, and false otherwise.
-    //    Example 1:
+    //    Example 1:--test
     //
     //    Input: x = 121
     //    Output: true
